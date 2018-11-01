@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		796B740E218AE3C900B8B6F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B740D218AE3C900B8B6F4 /* AppDelegate.m */; };
+		796B7411218AE3C900B8B6F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B7410218AE3C900B8B6F4 /* ViewController.m */; };
+		796B7414218AE3C900B8B6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B7412218AE3C900B8B6F4 /* Main.storyboard */; };
+		796B7416218AE3CB00B8B6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B7415218AE3CB00B8B6F4 /* Assets.xcassets */; };
+		796B7419218AE3CB00B8B6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796B7417218AE3CB00B8B6F4 /* LaunchScreen.storyboard */; };
+		796B741C218AE3CB00B8B6F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B741B218AE3CB00B8B6F4 /* main.m */; };
+		796B7426218AE3CB00B8B6F4 /* EWArcTableView_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B7425218AE3CB00B8B6F4 /* EWArcTableView_OCTests.m */; };
+		796B7431218AE3CB00B8B6F4 /* EWArcTableView_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B7430218AE3CB00B8B6F4 /* EWArcTableView_OCUITests.m */; };
+		796B7440218AE3E600B8B6F4 /* EWArcTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B743F218AE3E600B8B6F4 /* EWArcTableView.m */; };
+		796B7443218AE3F500B8B6F4 /* EWArcTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B7442218AE3F500B8B6F4 /* EWArcTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		796B7422218AE3CB00B8B6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796B7401218AE3C900B8B6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796B7408218AE3C900B8B6F4;
+			remoteInfo = "EWArcTableView-OC";
+		};
+		796B742D218AE3CB00B8B6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796B7401218AE3C900B8B6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796B7408218AE3C900B8B6F4;
+			remoteInfo = "EWArcTableView-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		796B7409218AE3C900B8B6F4 /* EWArcTableView-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EWArcTableView-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B740C218AE3C900B8B6F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		796B740D218AE3C900B8B6F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		796B740F218AE3C900B8B6F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		796B7410218AE3C900B8B6F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		796B7413218AE3C900B8B6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		796B7415218AE3CB00B8B6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796B7418218AE3CB00B8B6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		796B741A218AE3CB00B8B6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796B741B218AE3CB00B8B6F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		796B7421218AE3CB00B8B6F4 /* EWArcTableView-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EWArcTableView-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B7425218AE3CB00B8B6F4 /* EWArcTableView_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWArcTableView_OCTests.m; sourceTree = "<group>"; };
+		796B7427218AE3CB00B8B6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796B742C218AE3CB00B8B6F4 /* EWArcTableView-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EWArcTableView-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B7430218AE3CB00B8B6F4 /* EWArcTableView_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWArcTableView_OCUITests.m; sourceTree = "<group>"; };
+		796B7432218AE3CB00B8B6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796B743E218AE3E600B8B6F4 /* EWArcTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWArcTableView.h; sourceTree = "<group>"; };
+		796B743F218AE3E600B8B6F4 /* EWArcTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWArcTableView.m; sourceTree = "<group>"; };
+		796B7441218AE3F500B8B6F4 /* EWArcTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWArcTableViewCell.h; sourceTree = "<group>"; };
+		796B7442218AE3F500B8B6F4 /* EWArcTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWArcTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796B7406218AE3C900B8B6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B741E218AE3CB00B8B6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B7429218AE3CB00B8B6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796B7400218AE3C900B8B6F4 = {
+			isa = PBXGroup;
+			children = (
+				796B740B218AE3C900B8B6F4 /* EWArcTableView-OC */,
+				796B7424218AE3CB00B8B6F4 /* EWArcTableView-OCTests */,
+				796B742F218AE3CB00B8B6F4 /* EWArcTableView-OCUITests */,
+				796B740A218AE3C900B8B6F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		796B740A218AE3C900B8B6F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796B7409218AE3C900B8B6F4 /* EWArcTableView-OC.app */,
+				796B7421218AE3CB00B8B6F4 /* EWArcTableView-OCTests.xctest */,
+				796B742C218AE3CB00B8B6F4 /* EWArcTableView-OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796B740B218AE3C900B8B6F4 /* EWArcTableView-OC */ = {
+			isa = PBXGroup;
+			children = (
+				796B740C218AE3C900B8B6F4 /* AppDelegate.h */,
+				796B740D218AE3C900B8B6F4 /* AppDelegate.m */,
+				796B740F218AE3C900B8B6F4 /* ViewController.h */,
+				796B7410218AE3C900B8B6F4 /* ViewController.m */,
+				796B743E218AE3E600B8B6F4 /* EWArcTableView.h */,
+				796B743F218AE3E600B8B6F4 /* EWArcTableView.m */,
+				796B7441218AE3F500B8B6F4 /* EWArcTableViewCell.h */,
+				796B7442218AE3F500B8B6F4 /* EWArcTableViewCell.m */,
+				796B7412218AE3C900B8B6F4 /* Main.storyboard */,
+				796B7415218AE3CB00B8B6F4 /* Assets.xcassets */,
+				796B7417218AE3CB00B8B6F4 /* LaunchScreen.storyboard */,
+				796B741A218AE3CB00B8B6F4 /* Info.plist */,
+				796B741B218AE3CB00B8B6F4 /* main.m */,
+			);
+			path = "EWArcTableView-OC";
+			sourceTree = "<group>";
+		};
+		796B7424218AE3CB00B8B6F4 /* EWArcTableView-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				796B7425218AE3CB00B8B6F4 /* EWArcTableView_OCTests.m */,
+				796B7427218AE3CB00B8B6F4 /* Info.plist */,
+			);
+			path = "EWArcTableView-OCTests";
+			sourceTree = "<group>";
+		};
+		796B742F218AE3CB00B8B6F4 /* EWArcTableView-OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				796B7430218AE3CB00B8B6F4 /* EWArcTableView_OCUITests.m */,
+				796B7432218AE3CB00B8B6F4 /* Info.plist */,
+			);
+			path = "EWArcTableView-OCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796B7408218AE3C900B8B6F4 /* EWArcTableView-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796B7435218AE3CB00B8B6F4 /* Build configuration list for PBXNativeTarget "EWArcTableView-OC" */;
+			buildPhases = (
+				796B7405218AE3C900B8B6F4 /* Sources */,
+				796B7406218AE3C900B8B6F4 /* Frameworks */,
+				796B7407218AE3C900B8B6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EWArcTableView-OC";
+			productName = "EWArcTableView-OC";
+			productReference = 796B7409218AE3C900B8B6F4 /* EWArcTableView-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		796B7420218AE3CB00B8B6F4 /* EWArcTableView-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796B7438218AE3CB00B8B6F4 /* Build configuration list for PBXNativeTarget "EWArcTableView-OCTests" */;
+			buildPhases = (
+				796B741D218AE3CB00B8B6F4 /* Sources */,
+				796B741E218AE3CB00B8B6F4 /* Frameworks */,
+				796B741F218AE3CB00B8B6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796B7423218AE3CB00B8B6F4 /* PBXTargetDependency */,
+			);
+			name = "EWArcTableView-OCTests";
+			productName = "EWArcTableView-OCTests";
+			productReference = 796B7421218AE3CB00B8B6F4 /* EWArcTableView-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		796B742B218AE3CB00B8B6F4 /* EWArcTableView-OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796B743B218AE3CB00B8B6F4 /* Build configuration list for PBXNativeTarget "EWArcTableView-OCUITests" */;
+			buildPhases = (
+				796B7428218AE3CB00B8B6F4 /* Sources */,
+				796B7429218AE3CB00B8B6F4 /* Frameworks */,
+				796B742A218AE3CB00B8B6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796B742E218AE3CB00B8B6F4 /* PBXTargetDependency */,
+			);
+			name = "EWArcTableView-OCUITests";
+			productName = "EWArcTableView-OCUITests";
+			productReference = 796B742C218AE3CB00B8B6F4 /* EWArcTableView-OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796B7401218AE3C900B8B6F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Ethan;
+				TargetAttributes = {
+					796B7408218AE3C900B8B6F4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					796B7420218AE3CB00B8B6F4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 796B7408218AE3C900B8B6F4;
+					};
+					796B742B218AE3CB00B8B6F4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 796B7408218AE3C900B8B6F4;
+					};
+				};
+			};
+			buildConfigurationList = 796B7404218AE3C900B8B6F4 /* Build configuration list for PBXProject "EWArcTableView-OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796B7400218AE3C900B8B6F4;
+			productRefGroup = 796B740A218AE3C900B8B6F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796B7408218AE3C900B8B6F4 /* EWArcTableView-OC */,
+				796B7420218AE3CB00B8B6F4 /* EWArcTableView-OCTests */,
+				796B742B218AE3CB00B8B6F4 /* EWArcTableView-OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796B7407218AE3C900B8B6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B7419218AE3CB00B8B6F4 /* LaunchScreen.storyboard in Resources */,
+				796B7416218AE3CB00B8B6F4 /* Assets.xcassets in Resources */,
+				796B7414218AE3C900B8B6F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B741F218AE3CB00B8B6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B742A218AE3CB00B8B6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796B7405218AE3C900B8B6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B7440218AE3E600B8B6F4 /* EWArcTableView.m in Sources */,
+				796B7443218AE3F500B8B6F4 /* EWArcTableViewCell.m in Sources */,
+				796B7411218AE3C900B8B6F4 /* ViewController.m in Sources */,
+				796B741C218AE3CB00B8B6F4 /* main.m in Sources */,
+				796B740E218AE3C900B8B6F4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B741D218AE3CB00B8B6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B7426218AE3CB00B8B6F4 /* EWArcTableView_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B7428218AE3CB00B8B6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B7431218AE3CB00B8B6F4 /* EWArcTableView_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		796B7423218AE3CB00B8B6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796B7408218AE3C900B8B6F4 /* EWArcTableView-OC */;
+			targetProxy = 796B7422218AE3CB00B8B6F4 /* PBXContainerItemProxy */;
+		};
+		796B742E218AE3CB00B8B6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796B7408218AE3C900B8B6F4 /* EWArcTableView-OC */;
+			targetProxy = 796B742D218AE3CB00B8B6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		796B7412218AE3C900B8B6F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796B7413218AE3C900B8B6F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		796B7417218AE3CB00B8B6F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796B7418218AE3CB00B8B6F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		796B7433218AE3CB00B8B6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		796B7434218AE3CB00B8B6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796B7436218AE3CB00B8B6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = "EWArcTableView-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ethan.EWArcTableView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		796B7437218AE3CB00B8B6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = "EWArcTableView-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ethan.EWArcTableView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		796B7439218AE3CB00B8B6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = "EWArcTableView-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ethan.EWArcTableView-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWArcTableView-OC.app/EWArcTableView-OC";
+			};
+			name = Debug;
+		};
+		796B743A218AE3CB00B8B6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = "EWArcTableView-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ethan.EWArcTableView-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWArcTableView-OC.app/EWArcTableView-OC";
+			};
+			name = Release;
+		};
+		796B743C218AE3CB00B8B6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = "EWArcTableView-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ethan.EWArcTableView-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EWArcTableView-OC";
+			};
+			name = Debug;
+		};
+		796B743D218AE3CB00B8B6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = "EWArcTableView-OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ethan.EWArcTableView-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EWArcTableView-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796B7404218AE3C900B8B6F4 /* Build configuration list for PBXProject "EWArcTableView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B7433218AE3CB00B8B6F4 /* Debug */,
+				796B7434218AE3CB00B8B6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796B7435218AE3CB00B8B6F4 /* Build configuration list for PBXNativeTarget "EWArcTableView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B7436218AE3CB00B8B6F4 /* Debug */,
+				796B7437218AE3CB00B8B6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796B7438218AE3CB00B8B6F4 /* Build configuration list for PBXNativeTarget "EWArcTableView-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B7439218AE3CB00B8B6F4 /* Debug */,
+				796B743A218AE3CB00B8B6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796B743B218AE3CB00B8B6F4 /* Build configuration list for PBXNativeTarget "EWArcTableView-OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B743C218AE3CB00B8B6F4 /* Debug */,
+				796B743D218AE3CB00B8B6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796B7401218AE3C900B8B6F4 /* Project object */;
+}
