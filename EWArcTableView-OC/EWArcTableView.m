@@ -66,7 +66,7 @@
         CGFloat x = xRadius * cosf(angle);
         /// 进行简单适配
         frame.origin.x = x - 90 + (812 - UIScreen.mainScreen.bounds.size.height) * 95/145;
-        /* 可以通过修改height来实现每个Cell高度渐变效果,页面中间cell最大,上下猪圈变小
+        /* 可以通过修改height来实现每个Cell高度渐变效果,页面中间cell最大,上下逐渐变小
         frame.size.height = self.rowHeight * cosf(angle * 0.6);
          */
         /// 保证x值可用
