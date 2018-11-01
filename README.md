@@ -1,6 +1,5 @@
 # EWArcTableView-OC
 OC版左侧有弧形区域的TableView
-----
 
 # 实现效果:
 
@@ -8,9 +7,7 @@ OC版左侧有弧形区域的TableView
 
 可增加中间cell最大,上下端cell依次变小的效果.
 
-
-
-<br>
+   
 
 ![效果图预览](https://github.com/WangLiquan/EWArcTableView/raw/master/images/demonstration.gif)
 
