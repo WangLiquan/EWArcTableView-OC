@@ -1,4 +1,6 @@
 # EWArcTableView-OC
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 OC版左侧有弧形区域的TableView
 
 # 实现效果:
